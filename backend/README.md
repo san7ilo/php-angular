@@ -1,4 +1,4 @@
-# 📡 PHP REST API - Gestión de Usuarios + Imágenes
+# 📡 API REST PHP - Gestión de Usuarios + Imágenes
 
 Este proyecto es una API RESTful creada en PHP puro, sin frameworks, siguiendo buenas prácticas y estructura modular. Permite realizar operaciones CRUD sobre usuarios y subir imágenes de perfil.
 
@@ -27,7 +27,7 @@ docker-compose up -d
 Visita en el navegador:
 
 ```
-http://localhost:8000/../config/migration.php
+http://localhost:8000/migrations.php
 ```
 
 Esto creará la tabla `users`.
@@ -104,5 +104,3 @@ backend/
 ├── uploads/              # Imágenes subidas
 └── README.md
 ```
-
----
